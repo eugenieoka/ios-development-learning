@@ -1,10 +1,3 @@
-//
-//  app1App.swift
-//  app1
-//
-//  Created by supchik on 21.10.26.
-//
-
 import SwiftUI
 import SwiftData
 
