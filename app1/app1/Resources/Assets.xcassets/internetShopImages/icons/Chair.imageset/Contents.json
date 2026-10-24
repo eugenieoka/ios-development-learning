@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Chair.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Chair.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },

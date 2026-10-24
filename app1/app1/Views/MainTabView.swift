@@ -1,18 +1,29 @@
 import SwiftUI
 
 struct MainTabView: View {
+    
+    @State private var selection: String = "catalog"
+    
     var body: some View{
-        TabView{
-            Tab("Catalog", image: "collection"){
+        TabView(selection: $selection){
+            Tab("Catalog",
+                image: selection == "catalog" ? "collection" : "collectionOff",
+                value: "catalog"){
                 Text("Catalog")
             }
-            Tab("Favourites", image: "heart"){
+            Tab("Favourites",
+                image: selection == "favourites" ? "heart" : "heartOff",
+                value: "favourites"){
                 Text ("Favourites")
             }
-            Tab("Cart", image: "cart"){
+            Tab("Cart",
+                image: selection == "cart" ? "cart" : "cartOff",
+                value: "cart"){
                 Text("Cart")
             }
-            Tab("Settings", image: "glyph"){
+            Tab("Settings",
+                image: selection == "settings" ? "glyph" : "glyphOff",
+                value: "settings"){
                 Text("Settings")
             }
         }

@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Bed.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Bed.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },

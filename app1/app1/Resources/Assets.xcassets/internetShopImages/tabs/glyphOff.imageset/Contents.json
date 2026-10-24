@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "settings 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Glyph.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },

@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "filter.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "filter 1.png",
+      "filename" : "filter.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },

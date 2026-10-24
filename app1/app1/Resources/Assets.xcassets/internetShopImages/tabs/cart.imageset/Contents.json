@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Cart.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Cart.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
