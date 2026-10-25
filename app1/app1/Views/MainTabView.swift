@@ -11,10 +11,10 @@ struct MainTabView: View {
                 value: "catalog"){
                 Text("Catalog")
             }
-            Tab("Favourites",
-                image: selection == "favourites" ? "heart" : "heartOff",
-                value: "favourites"){
-                Text ("Favourites")
+            Tab("Favorites",
+                image: selection == "favorites" ? "heart" : "heartOff",
+                value: "favorites"){
+                Text ("Favorites")
             }
             Tab("Cart",
                 image: selection == "cart" ? "cart" : "cartOff",
