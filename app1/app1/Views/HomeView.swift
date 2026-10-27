@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct HomeView: View {
+struct HomeView: View{
     @State private var showTabView: Bool = false
     var body: some View{
         if showTabView{
@@ -22,7 +22,7 @@ struct HomeView: View {
                 Spacer()
                 Button{
                     showTabView = true
-                } label: {
+                } label:{
                     Image("startButton")
                 }
                 .padding(.bottom, 145)

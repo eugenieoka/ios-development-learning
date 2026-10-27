@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MainTabView: View {
+struct MainTabView: View{
     
     @State private var selection: String = "catalog"
     

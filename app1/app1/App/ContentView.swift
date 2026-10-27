@@ -1,12 +1,12 @@
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct ContentView: View{
     var body: some View{
         HomeView()
     }
 }
 
-#Preview {
+#Preview{
     ContentView()
 }
