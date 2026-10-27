@@ -1,30 +1,31 @@
 import SwiftUI
 
-struct HomeView: View{
+struct HomeView: View {
     @State private var showTabView: Bool = false
-    var body: some View{
-        if showTabView{
+    var body: some View {
+        if showTabView {
             MainTabView()
         }
-        else{
-            VStack{
+        else {
+            VStack {
                 Image("logo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 125, height: 125)
                     .padding(.top, 240)
                 Text("MINIMALIST")
-                    .font(.custom("SFProText-Semibold", size: 25))
+                    .font(.system(size: 25, weight: .semibold))
                     .tracking(5)
                     .padding(.top, 6)
                 Text("furniture store")
-                    .font(.custom("SFProText-Regular", size: 14))
+                    .font(.system(size: 14, weight: .regular))
                 Spacer()
-                Button{
+                Button {
                     showTabView = true
-                } label:{
-                    Image("startButton")
+                } label: {
+                    Text("START SHOP")
                 }
+                .buttonStyle(BasicButtonStyle(width: 200))
                 .padding(.bottom, 145)
             }
         }
