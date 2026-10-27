@@ -7,7 +7,7 @@ struct BasicButtonStyle: ButtonStyle {
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.system(size: 17, weight: .semibold))
+            .font(.buttonText)
             .foregroundStyle(.white)
             .frame(width: width, height: height)
             .background(backgroundColor)

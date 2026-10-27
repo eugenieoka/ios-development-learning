@@ -14,11 +14,11 @@ struct HomeView: View {
                     .frame(width: 125, height: 125)
                     .padding(.top, 240)
                 Text("MINIMALIST")
-                    .font(.system(size: 25, weight: .semibold))
+                    .font(.appTitle)
                     .tracking(5)
                     .padding(.top, 6)
                 Text("furniture store")
-                    .font(.system(size: 14, weight: .regular))
+                    .font(.appSubtitle)
                 Spacer()
                 Button {
                     showTabView = true
