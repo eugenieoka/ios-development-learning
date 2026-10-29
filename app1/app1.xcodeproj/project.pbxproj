@@ -35,16 +35,6 @@
 			path = app1;
 			sourceTree = "<group>";
 		};
-		7CBB83D330889E00004D61F3 /* app1Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = app1Tests;
-			sourceTree = "<group>";
-		};
-		7CBB83DD30889E00004D61F3 /* app1UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = app1UITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				7CBB83C330889DFF004D61F3 /* app1 */,
-				7CBB83D330889E00004D61F3 /* app1Tests */,
-				7CBB83DD30889E00004D61F3 /* app1UITests */,
 				7CBB83C230889DFF004D61F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				7CBB83D230889E00004D61F3 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				7CBB83D330889E00004D61F3 /* app1Tests */,
-			);
 			name = app1Tests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				7CBB83DC30889E00004D61F3 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7CBB83DD30889E00004D61F3 /* app1UITests */,
 			);
 			name = app1UITests;
 			packageProductDependencies = (
