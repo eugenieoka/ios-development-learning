@@ -25,7 +25,7 @@ struct MainTabView: View {
         private func content(for tab: Tabs) -> some View {
             switch tab {
             case .catalog:
-                CatalogView()
+                Text("Catalog")
             case .favorites:
                 Text("Favorites")
             case .cart:
