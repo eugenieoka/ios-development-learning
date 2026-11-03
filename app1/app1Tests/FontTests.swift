@@ -2,6 +2,7 @@ import Testing
 import SwiftUI
 @testable import app1
 
+@MainActor
 @Suite("Font Constants")
 struct FontConstantsTests {
 

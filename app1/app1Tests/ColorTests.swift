@@ -3,6 +3,7 @@ import SwiftUI
 import UIKit
 @testable import app1
 
+@MainActor
 @Suite("Color Constants")
 struct ColorConstantsTests {
 
