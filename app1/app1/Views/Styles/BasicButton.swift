@@ -3,7 +3,7 @@ import SwiftUI
 struct BasicButtonStyle: ButtonStyle {
     var height: CGFloat = 48
     var width: CGFloat? = nil
-    var backgroundColor: Color = Color("oliv")
+    var backgroundColor: Color = .appOliv
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
