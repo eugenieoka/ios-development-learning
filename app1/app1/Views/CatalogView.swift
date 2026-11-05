@@ -22,5 +22,12 @@ struct CatalogView: View {
         .task {
             viewModel.loadCategories()
         }
+        .alert("Error", isPresented: .constant(viewModel.errorMessage != nil)) {
+                    Button("OK") {
+                        viewModel.errorMessage = nil
+                    }
+                } message: {
+                    Text(viewModel.errorMessage ?? "")
+                }
     }
 }
