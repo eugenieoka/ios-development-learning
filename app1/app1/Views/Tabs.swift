@@ -5,7 +5,7 @@ enum Tabs: String, CaseIterable {
     case favorites
     case cart
     case settings
-
+    
     var icon: String {
         switch self {
         case .catalog: return "collection"
@@ -14,7 +14,7 @@ enum Tabs: String, CaseIterable {
         case .settings: return "glyph"
         }
     }
-
+    
     var title: String {
         switch self {
         case .catalog: return "Catalog"

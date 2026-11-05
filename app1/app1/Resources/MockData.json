@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "SOFAS",
+    "thumbnailurl": "https://example.com/sofa.png",
+    "subCategories": []
+  },
+  {
+    "id": "2",
+    "name": "TABLES",
+    "thumbnailurl": "https://example.com/table.png",
+    "subCategories": []
+  },
+  {
+    "id": "3",
+    "name": "CHAIRS",
+    "thumbnailurl": "https://example.com/chair.png",
+    "subCategories": []
+  },
+  {
+    "id": "4",
+    "name": "LAMPS",
+    "thumbnailurl": "https://example.com/lamp.png",
+    "subCategories": []
+  },
+  {
+    "id": "5",
+    "name": "WARDROBES",
+    "thumbnailurl": "https://example.com/wardrobe.png",
+    "subCategories": []
+  },
+  {
+    "id": "6",
+    "name": "BEDS",
+    "thumbnailurl": "https://example.com/bed.png",
+    "subCategories": []
+  }
+]
