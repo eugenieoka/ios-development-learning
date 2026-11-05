@@ -29,9 +29,25 @@
 		7CBB83DA30889E00004D61F3 /* app1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		7CC160E23093390100FA0307 /* Exceptions for "app1" folder in "Compile Sources" phase from "app1" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 7CBB83BD30889DFF004D61F3 /* Sources */;
+			membershipExceptions = (
+				Resources/MockData.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7CBB83C330889DFF004D61F3 /* app1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7CC160E23093390100FA0307 /* Exceptions for "app1" folder in "Compile Sources" phase from "app1" target */,
+			);
+			explicitFileTypes = {
+				Resources/MockData.json = text.json;
+			};
 			path = app1;
 			sourceTree = "<group>";
 		};
