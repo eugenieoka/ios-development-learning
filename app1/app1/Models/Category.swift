@@ -4,7 +4,7 @@ struct Category: Decodable, Identifiable {
     let id: String
     let name: String
     let thumbnailUrl: String?
-    let subcategories: [Subcategory]?
+    let subcategories: [SubCategory]?
     
     enum CodingKeys: String, CodingKey {
         case id, name, subcategories
@@ -12,7 +12,7 @@ struct Category: Decodable, Identifiable {
     }
 }
 
-struct Subcategory: Decodable, Identifiable {
+struct SubCategory: Decodable, Identifiable {
     let id: String
     let name: String
     let thumbnailUrl: String?

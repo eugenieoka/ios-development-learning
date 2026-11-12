@@ -34,5 +34,20 @@
     "name": "BEDS",
     "thumbnailurl": "https://example.com/bed.png",
     "subCategories": []
+  },
+  {
+      "id": "7",
+      "name": "MIRRORS",
+      "thumbnailurl": "",
+      "subcategories": []
+  },
+  {
+      "id": "8",
+      "name": "RUGS",
+      "subcategories": []
+  },
+  {
+      "id": "9",
+      "name": "SHELVES",
   }
 ]

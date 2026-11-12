@@ -6,7 +6,9 @@ class CatalogViewModel {
     var isLoading = false
     var errorMessage: String?
     
-    func loadCategories() {
+    var usedForUnitTesting: Bool = false
+    
+    private func fromMockData() {
         isLoading = true
         defer { isLoading = false }
         
@@ -20,6 +22,14 @@ class CatalogViewModel {
             categories = try JSONDecoder().decode([Category].self, from: data)
         } catch {
             errorMessage = "Decoding error"
+        }
+    }
+    
+    func loadCategories() {
+        if usedForUnitTesting {
+            fromMockData()
+        } else {
+            fromMockData() //temporarily
         }
     }
 }

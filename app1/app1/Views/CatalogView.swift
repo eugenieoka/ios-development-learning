@@ -12,7 +12,7 @@ struct CatalogView: View {
             } else {
                 LazyVGrid(columns: columns, spacing: 32) {
                     ForEach(viewModel.categories) { category in
-                        CategoryCard(category: category)
+                        CategoryCard(model: CategoryCardModel(category: category))
                     }
                 }
                 .padding(.horizontal, 12)
@@ -23,11 +23,11 @@ struct CatalogView: View {
             viewModel.loadCategories()
         }
         .alert("Error", isPresented: .constant(viewModel.errorMessage != nil)) {
-                    Button("OK") {
-                        viewModel.errorMessage = nil
-                    }
-                } message: {
-                    Text(viewModel.errorMessage ?? "")
-                }
+            Button("OK") {
+                viewModel.errorMessage = nil
+            }
+        } message: {
+            Text(viewModel.errorMessage ?? "")
+        }
     }
 }
