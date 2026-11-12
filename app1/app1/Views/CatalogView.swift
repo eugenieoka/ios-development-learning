@@ -19,6 +19,9 @@ struct CatalogView: View {
                 .padding(.vertical, 12)
             }
         }
+        .refreshable {
+            viewModel.loadCategories()
+        }
         .task {
             viewModel.loadCategories()
         }

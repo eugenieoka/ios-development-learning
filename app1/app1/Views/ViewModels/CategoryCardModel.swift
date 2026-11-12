@@ -12,7 +12,7 @@ struct CategoryCardModel {
         case "LAMPS":     return "Lamp"
         case "WARDROBES": return "Wardrobe"
         case "BEDS":      return "Bed"
-        default:          return "Chair"
+        default:          return "collection"
         }
     }
 }
