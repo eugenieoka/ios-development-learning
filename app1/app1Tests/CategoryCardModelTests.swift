@@ -33,10 +33,9 @@ struct CategoryCardModelTests {
         #expect(bedsModel.iconName == "Bed")
     }
     
-    @Test("Chair for unknown category")
+    @Test("Collection for unknown category")
     func testUnknownCategory() {
         let unknownCategory = Category(id: "99", name: "UNKNOWN", thumbnailUrl: nil, subcategories: nil)
         let model = CategoryCardModel(category: unknownCategory)
-        #expect(model.iconName == "Chair")
+        #expect(model.iconName == "collection")
     }}
-
