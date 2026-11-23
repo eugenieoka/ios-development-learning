@@ -2,7 +2,7 @@ import SwiftUI
 
 struct MainTabView: View {
     @State private var viewModel = MainTabViewModel()
-
+    
     var body: some View {
         TabView(selection: $viewModel.selection) {
             ForEach(viewModel.tabs, id: \.self) { tab in
@@ -22,16 +22,16 @@ struct MainTabView: View {
     }
     
     @ViewBuilder
-        private func content(for tab: Tabs) -> some View {
-            switch tab {
-            case .catalog:
-                Text("Catalog")
-            case .favorites:
-                Text("Favorites")
-            case .cart:
-                Text("Cart")
-            case .settings:
-                Text("Settings")
-            }
+    private func content(for tab: Tabs) -> some View {
+        switch tab {
+        case .catalog:
+            CatalogView()
+        case .favorites:
+            Text("Favorites")
+        case .cart:
+            Text("Cart")
+        case .settings:
+            Text("Settings")
         }
+    }
 }
